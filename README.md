@@ -40,18 +40,7 @@ Using the same IPv4 addresses above, and the QUIC port is 784.
 ```bash
 # quic://94.140.14.14
 # quic://dns.adguard.com
-$ ./dnslookup google.com quic://94.140.14.14:784
-dnslookup v. v1.8.0
-2022/10/28 15:56:54 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.
-dnslookup result:
-;; opcode: QUERY, status: NOERROR, id: 1258
-;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
 
-;; QUESTION SECTION:
-;google.com.	IN	 A
-
-;; ANSWER SECTION:
-google.com.	295	IN	A	142.251.42.238
 ```
 
 
